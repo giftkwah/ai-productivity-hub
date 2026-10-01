@@ -1,60 +1,130 @@
-# AI Productivity Hub
+# AI-Productivity-Assistant
 
-Build a modern, responsive web app called AI Workplace Productivity Assistant.
+## Author
 
-Create a professional SaaS-style dashboard using a light grey and dark colour theme. No backend, database, authentication, sign-in, or registration. Users must access the application directly.
+**Kwanele GIFT MTSHALI**
 
-Main Features
+## Project Overview
 
-Include at least these 5 AI-powered tools:
+**AI Workplace Productivity Assistant** is a modern web application designed to help professionals complete common workplace tasks more efficiently using AI.
 
-Smart Email Generator – generate professional workplace emails from user prompts.
+The application provides several AI-powered tools that assist users with writing emails, summarising meeting notes, planning tasks, conducting research, and answering workplace-related questions.
 
-Meeting Notes Summarizer – turn meeting notes into concise summaries and action points.
+The application is designed with a simple, professional interface that is easy to use on both desktop and mobile devices. No sign-in or registration is required.
 
-AI Task Planner – create organised tasks and priorities from user goals.
+## Features Implemented
 
-AI Research Assistant – answer research questions and provide structured information.
+### 1. Smart Email Generator
 
-AI Workplace Chatbot – respond to general workplace prompts and questions.
+Generates professional workplace emails based on the user's instructions, purpose, and preferred tone.
 
-UI Requirements
+### 2. Meeting Notes Summarizer
 
-Dashboard layout
+Converts meeting notes into clear summaries and identifies important action points.
 
-Sidebar navigation
+### 3. AI Task Planner
 
-Input and AI output sections
+Helps users organise goals into structured tasks, priorities, and actionable steps.
 
-Editable/copyable AI responses
+### 4. AI Research Assistant
 
-Responsive desktop and mobile design
+Helps users research topics by generating structured explanations, key points, and useful information.
 
-Clean, modern, professional UI/UX
+### 5. AI Workplace Chatbot
 
-Clear navigation between all AI tools
+Provides an interactive AI assistant that responds to general workplace questions and prompts.
 
-Add a Responsible AI disclaimer explaining that AI outputs should be reviewed and verified before use.
+### Additional Features
 
-Focus on strong prompt engineering, practical workplace usefulness, ease of use, and polished presentation. Keep the application frontend-only with no sign-in or registration.
+* Modern dashboard layout
+* Sidebar navigation
+* Responsive desktop and mobile design
+* Input and output sections
+* Editable AI-generated responses
+* Copy-to-clipboard functionality
+* Light grey and dark professional UI
+* Easy navigation between AI tools
+* Responsible AI disclaimer
+* No account or registration required
 
-This project was built with [Lovable](https://lovable.dev).
+## Technologies and Tools Used
 
-## Build with Lovable
+* **Lovable AI** – Application development and AI-assisted coding
+* **React** – Frontend application framework
+* **TypeScript** – Application programming language
+* **HTML5** – Web structure
+* **CSS** – Styling and responsive design
+* **AI Prompt Engineering** – Structured prompts for workplace productivity tasks
+* **Git & GitHub** – Version control and project repository management
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/41337a5c-8350-4e9b-bab5-30fa0f6ae4b3).
+## Project Structure
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+The application is organised around a dashboard with separate sections for each AI productivity tool:
 
-## Development
+* Dashboard
+* Smart Email Generator
+* Meeting Notes Summarizer
+* AI Task Planner
+* AI Research Assistant
+* AI Workplace Chatbot
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## Setup Instructions
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/AI-Productivity-Assistant.git
+```
+
+### 2. Open the Project
+
+```bash
+cd AI-Productivity-Assistant
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
+
+### 5. Open the Application
+
+Open the local development URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## Usage
+
+1. Open the application.
+2. Select an AI tool from the sidebar.
+3. Enter your request or information in the input section.
+4. Submit the prompt.
+5. Review the AI-generated response.
+6. Edit or copy the response as required.
+
+No registration or sign-in is required.
+
+## Responsible AI
+
+AI-generated content may contain inaccurate, incomplete, or outdated information. Users should review and verify AI-generated responses before using them for important workplace decisions or communication.
+
+Users should also avoid entering confidential, sensitive, or private workplace information into the application.
+
+## Project Goals
+
+The main goal of this project is to demonstrate how AI can be used to improve workplace productivity by reducing repetitive tasks and helping users organise, communicate, research, and plan more efficiently.
+
+## Repository
+
+**Repository Name:** `AI-Productivity-Assistant`
+
+**Author:** Kwanele GIFT MTSHALI

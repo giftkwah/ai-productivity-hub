@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep AI requests behind the `/api/chat` server route so prompts and the gateway key never reach the browser.
+- Keep user conversation history in browser storage only; this app intentionally has no account or database layer.
